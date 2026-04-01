@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Tampilan Awal</h1>
+@extends('layouts.master')
+@section('judul')
+    Tampilan Awal
+@endsection
+@section('content')
     <ul>
         <li>list 1</li>
         <li>list 2 <a href="/daftar">Link Daftar</a></li>
         <li>list 3</li>
     </ul>
-</body>
-</html>
+@endsection
+ 
